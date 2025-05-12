@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #FCF5E5;
+  max-width: 1440px;
+}
 .header {
   width: 1200px;
   height: 210px;
@@ -41,7 +47,7 @@
   color: #212121;
 }
 .secondary-btn {
-  width: 107.34px;
+  width: 120.34px;
   height: 16px;
   opacity: 70%;
   gap: 8px;
@@ -55,6 +61,7 @@
   text-decoration: none;
   font-family: Poppins;
   font-weight: 500;
+  color: #212121;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
