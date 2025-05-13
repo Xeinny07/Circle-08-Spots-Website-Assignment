@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fcf5e5;
+}
+
+/* header/logo */
+.header{
+    background-color: #fefdfa;
+}
+
+
+.logo{
+    width: 100%;
+    text-align: center;
+}
+
+/* profile */
+
+.profile {
+   padding-left: 50px;
+   padding-top: 20px;
+   
+}   
+
+hr {
+     width:90%;
+}
+
+
+
+
+/* footer */
+
+hr {
+    margin: auto;
+    width:90%;
+}
+
+.footertext {
+    text-align: center;
+}
