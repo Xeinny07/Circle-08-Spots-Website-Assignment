@@ -2,8 +2,24 @@
   margin: 0;
   padding: 0;
   background-color: #fcf5e5;
-  max-width: 1440px;
+ 
 }
+
+
+
+/* logo */
+.logo{
+    background-color: #fefdfa;
+
+    width: 100%;
+    text-align: center;
+}
+
+.logo img{
+ background-color:  #fefdfa;
+}
+
+/* profile */
 .header {
   width: 1200px;
   height: 210px;
@@ -12,18 +28,22 @@
   padding-bottom: 20px;
   padding-top: 50px;
   padding-left: 80px;
-  border-bottom: 1px #21212166 solid;
+
 }
+
+
 .avatar {
   width: 190px;
   height: 190px;
 }
+
 .avatar-section {
   display: flex;
   gap: 20px;
   width: 505px;
   height: 190px;
 }
+
 .avatar-description {
   width: 420px;
   height: 190px;
@@ -31,11 +51,13 @@
   display: flex;
   flex-direction: column;
 }
+
 .avatar-children {
   width: 420;
   height: 60;
   gap: 12px;
 }
+
 .avatar-field {
   font-family: Poppins;
   font-weight: 500;
@@ -46,6 +68,7 @@
   height: 16px;
   color: #212121;
 }
+
 .secondary-btn {
   width: 120.34px;
   height: 16px;
@@ -53,6 +76,7 @@
   gap: 8px;
   display: flex;
 }
+
 .small-pencil {
   width: 18.48px;
   color: #212121;
@@ -109,6 +133,7 @@
   background-color: #212121;
   color: #fcf5e5;
 }
+/* main */
 main {
   height: 970px;
   padding: 0px 80px;
@@ -146,6 +171,7 @@ main {
      margin-top: 80px;
 } 
 
+/* /images */
 .img-1 img,
 .img-2 img,
 .img-3 img,
@@ -173,3 +199,19 @@ main {
   justify-content: space-between; 
 }
 
+/* footer */
+hr {
+    margin: auto;
+    width:90%;
+}
+
+.footertext {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Poppins" sans-serif;
+    font-size: 10px;
+    color: #d4cfc1;
+
+
+}
