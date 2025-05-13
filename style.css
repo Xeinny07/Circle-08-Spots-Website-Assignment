@@ -137,3 +137,39 @@ main {
   height: 22rem;
   border-radius: 15px;
 }
+
+
+.lower-section {
+     width: 32%;
+     display: flex;
+     gap: 25px; 
+     margin-top: 80px;
+} 
+
+.img-1 img,
+.img-2 img,
+.img-3 img,
+.img-4 img,
+.img-5 img,
+.img-6 img {
+    border-radius: 15px
+}
+
+.desc p {
+  color: rgba(33, 33, 33, 1);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.Name-heart p {
+  color: rgba(33, 33, 33, 1);
+  font-weight: 500;
+  font-size: 17px;  
+}
+
+.desc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+}
+
