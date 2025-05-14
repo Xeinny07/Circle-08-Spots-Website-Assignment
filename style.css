@@ -167,3 +167,55 @@ img {
   font-size: 10px;
   color: #666460;
 }
+
+@media (max-width: 500px) {
+  .profile-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .avatar-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .avatar-name{
+    font-size: 24px;
+    align-self: center;
+   }
+
+  .avatar-field {
+    font-size: 14px;
+    align-self: center;
+    padding-left: 90px;
+    margin-top: 0%;
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .edit-profile {
+    margin-top: 10px;
+    align-self: center;
+  }
+
+  .button-large {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Image-container {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+  }
+
+}
