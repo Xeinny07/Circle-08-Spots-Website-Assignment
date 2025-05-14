@@ -3,10 +3,11 @@
   padding: 0;
   background-color: #fcf5e5;
   max-width: 1440px;
+  box-sizing: border-box;
 }
 .header {
   width: 1200px;
-  height: 210px;
+  height: 250px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
@@ -81,7 +82,7 @@
 .button-large {
   padding: 18px;
   gap: 8px;
-  width: 93px;
+  width: 9rem;
   height: 20px;
   border-radius: 8px;
   font-family: "poppins";
