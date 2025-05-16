@@ -84,7 +84,7 @@ img {
   background: transparent;
   outline: none;
   border: none;
-  cursor: pointer;
+  cursor: url('https://cur.cursors-4u.net/cursors/cur-11/cur1046.cur'), auto;
 }
 
 /* New Post Button */
@@ -133,6 +133,11 @@ figure {
   object-fit: cover;
 }
 
+.Images:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
 .Name-heart,
 .desc {
   display: flex;
@@ -148,7 +153,7 @@ figure {
   color: #212121;
 }
 
-.Icon {
+.heart-icon {
   width: 20px;
   height: 20px;
 }
