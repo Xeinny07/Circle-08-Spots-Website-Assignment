@@ -156,6 +156,7 @@ figure {
 .heart-icon {
   width: 20px;
   height: 20px;
+  opacity: 40%;
 }
 
 /*footer*/
