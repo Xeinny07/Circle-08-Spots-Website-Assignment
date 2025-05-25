@@ -1,3 +1,7 @@
+@import 'components/css/edit-profile-modal.css';
+@import 'components/css/new-post-modal.css';
+@import 'components/css/image-prev-modal.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -69,7 +73,7 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
-  opacity: 0.7;
+  opacity: 40%;
 }
 
 .small-pencil {
@@ -86,6 +90,10 @@ img {
   border: none;
   cursor: url('https://cur.cursors-4u.net/cursors/cur-11/cur1046.cur'), auto;
 }
+.edit-profile:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
 
 /* New Post Button */
 .button-large {
@@ -97,6 +105,11 @@ img {
   background-color: #212121;
   border-radius: 8px;
   cursor: pointer;
+  border: none;
+}
+.button-large:hover {
+  opacity: 80%;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-plus {
@@ -158,6 +171,10 @@ figure {
   height: 20px;
   opacity: 1 !important;
   cursor: pointer;
+}
+.heart-icon:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 /*footer*/

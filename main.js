@@ -2,8 +2,6 @@
 function getCurrentYear() {
   const date = new Date();
   return date.getFullYear();
-}
-
 document . addEventListener('DOMContentLoaded', function () {
   // Define the images
   const images = [
@@ -97,3 +95,6 @@ document . addEventListener('DOMContentLoaded', function () {
       this.textContent = this.classList.contains('liked') ? '❤' : '♡';
      });
 });
+document.querySelector(
+  ".footertext"
+).textContent = `${getCurrentYear()} © Spots`;
