@@ -1,27 +1,54 @@
-/* adding styles to the div */
-.img-preview-styles {
-    top: 0;
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
     left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-body {
+    margin: auto;
+    padding: 20px;
+    width:30%;
+    background: white;
+    text-align: center;
+}
+
+.modal-content {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-caption {
+    margin-top: 10px;
     display: flex;
-    position: fixed;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    z-index: 1000;
 }
 
-/* adding styles to the image element */
-.img-preview-styles img {
-    max-width: 80%;
-    max-height: 80%;
+.heart {
+    cursor: pointer;
+    font-size: 24px;
 }
 
-/* styling the image name */
-.image-name {
-    color: #fff;
-    font-size: 20px;
-    margin-inline: 10px;
+.heart.liked {
+    color: red;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
 }
 
