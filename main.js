@@ -75,7 +75,7 @@ document . addEventListener('DOMContentLoaded', function () {
         console.log("image clicked:", this.src);
          document.getElementById('image-modal').style.display = 'block';
          document.getElementById('modal-img').src = this.src;
-         document.getElementById('modal-text').textContent = this.dataset.caption;
+         document.getElementById('modal-text').textContent = this.dataset.name;
          const heart = document.getElementById('modal-heart');
          heart.classList.remove('liked');
          heart.textContent = '♡'
